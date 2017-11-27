@@ -1,6 +1,4 @@
 def square_array(array)
   # your code here
-  temp = []
-  array.each {|x| temp << x**2}
-  temp
+  array.map { |e| e**2 }
 end
